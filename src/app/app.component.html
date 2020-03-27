@@ -1,2 +1,45 @@
+<!-- topbard -->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i> 
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#contact">User</a>
+  <a href="#news"><i class="fa fa-question-circle" aria-hidden="true"></i>Help</a>
+  <a href="#home"> <i class="fa fa-magic" aria-hidden="true"></i>Wizard</a>
+</div>
 
-<router-outlet></router-outlet>
+<!-- sidebar -->
+<div class="sidebar">
+  <a routerLink="/overview">Overview <i class="fa fa-eye" aria-hidden="true"></i></a>
+  <a routerLink="/dashboard">Dashboard <i class="fa fa-tachometer" aria-hidden="true"></i></a>
+  <a routerLink="/activities">Activities<i class="fa fa-font" aria-hidden="true"></i></a>
+  <a routerLink="/boundries">Boundries<i class="fa fa-square-o" aria-hidden="true"></i></a>
+  <a routerLink="/isotopes">Isotopes<i class="fa fa-flask" aria-hidden="true"></i></a>
+  <a routerLink="/client">Clients<i class="fa fa-address-book" aria-hidden="true"></i></a>
+  <a routerLink="/distributor">Distributors<i class="fa fa-sitemap" aria-hidden="true"></i></a>
+  <a routerLink="/equation">Equations <i class="fa fa-tags" aria-hidden="true"></i></a>
+  <a routerLink="/farm">Farms<i class="fa fa-globe" aria-hidden="true"></i></a>
+  <a routerLink="/field">Fields<i class="fa fa-map-marker" aria-hidden="true"></i></a>
+  <a routerLink="/lab-test">Lab Tests<i class="fa fa-labtest" aria-hidden="true"></i></a>
+  <a routerLink="/provider">Providers<i class="fa fa-car" aria-hidden="true"></i></a>
+  <a routerLink="/query">Queries<i class="fa fa-query" aria-hidden="true"></i></a>
+  <a routerLink="/set">Sets<i class="fa fa-object-group" aria-hidden="true"></i></a>
+  <a routerLink="/survey">Survey<i class="fa fa-survey" aria-hidden="true"></i></a>
+  <a routerLink="upload">Upload<i class="fa fa-file-o" aria-hidden="true"></i></a>
+  <a routerLink="variable">Variables<i class="fa fa-tag" aria-hidden="true"></i></a>
+
+</div>
+
+<!-- content -->
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+  
+
+
